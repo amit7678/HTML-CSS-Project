@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<title>
+Pizza Ordering System</title>
+<style>
+td{
+width:150px;
+height:40px;
+border: 5px solid #00008B;
+}
+table{
+border: 5px solid #00008B;
+}
+
+</style>
+</head>
+<body>
+<form>
+<fieldset style="background-color:#FFD580">
+<legend style="color:red">Order:</legend>
+<nav>
+<b>Select pizza <input type="text">&nbsp &nbsp  &nbsp  &nbsp &nbsp  &nbsp &nbsp &nbsp  &nbsp 
+Select Size  <input type="text">&nbsp &nbsp  &nbsp  &nbsp  &nbsp   &nbsp &nbsp &nbsp  &nbsp 
+<label for="quantity"> Select Quantity:</label>
+<input type="number" id="quantity" name="quantity" min="1" max="5" style="width:150px">
+</nav>
+</fieldset>
+
+<fieldset style="background-color:#FFD580">
+<legend style="color:red">Delivery Information</legend><br></br>
+<b>Name:<input type="text"><br></br>
+Email:<input type="text"><br></br>
+Phone:<input type="number"><br></br>
+Street Address:<input type="text" width="500" height="800"  placeholder="address"><br><br>
+State:<input type="text"><br></br>
+ZipCoe:<input type="number"><br></br>
+Delivery Time:<input type="address"><br></br>
+</fieldset>
+
+
+<fieldset style="background-color:#FFD580">
+<legend style="color:red">Payment</legend><br>
+<nav>
+ <h2> CardType</h2><tr>
+ <td>
+ <img src="y1.png"></td>
+<td><input type="radio" name="re">
+<img src="y2.png">
+<td><input type="radio" name="re">
+ <img src="y3.png">
+ <td><input type="radio" name="re">
+ </tr>
+ </nav><br>
+ 
+Card Number:<input type="text" placeholder="Card Number"><br></br>
+Security Code:<input type="text" ><br></br>
+<input type="button" value="Place Order">
+</fieldset>
+</form>
+</table>
+</body>
+</html>
